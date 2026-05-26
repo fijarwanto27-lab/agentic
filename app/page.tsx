@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 
-const DAPP_URL = 'https://app.agentic.xyz'
+const DAPP_URL = 'https://app.agenticly.xyz'
 
 const NAV = ['Features', 'How It Works', 'Tokenomics', 'Roadmap', 'About']
 
@@ -11,7 +11,7 @@ const FEATURES = [
   { icon: '◈', title: 'AI Trading Agents', desc: 'Deploy autonomous AI agents that trade 24/7 on your behalf. Choose from proven strategies or build your own.' },
   { icon: '✦', title: 'Velocity Rewards', desc: 'Earn cashback on every trade. The more you trade, the higher your tier — Bronze to Diamond.' },
   { icon: '⬡', title: 'Agent Marketplace', desc: 'Buy, sell, and rent proven AI strategies from top traders. Monetize your edge on-chain.' },
-  { icon: '🔒', title: 'Non-Custodial', desc: 'Your keys, your funds. Agentic never holds your assets. Full on-chain transparency.' },
+  { icon: '🔒', title: 'Non-Custodial', desc: 'Your keys, your funds. agenticly never holds your assets. Full on-chain transparency.' },
 ]
 
 const HOW_IT_WORKS = [
@@ -119,7 +119,7 @@ function IPhoneMockup() {
 
             {/* App header */}
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '8px 16px 12px', borderBottom: '1px solid rgba(0,82,255,0.1)' }}>
-              <span style={{ fontSize: 14, fontWeight: 800, background: 'linear-gradient(135deg,#fff 40%,#4D9FFF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>AGENTIC</span>
+              <span style={{ fontSize: 14, fontWeight: 800, background: 'linear-gradient(135deg,#fff 40%,#4D9FFF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>agenticly</span>
               <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
                 <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#00C97A', display: 'inline-block' }} />
                 <span style={{ fontSize: 10, color: '#00C97A', fontWeight: 600 }}>Base</span>
@@ -248,8 +248,8 @@ export default function LandingPage() {
       {/* NAVBAR */}
       <nav style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100, display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 48px', height: 64, background: 'rgba(6,11,20,0.85)', backdropFilter: 'blur(20px)', borderBottom: '1px solid var(--border)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <Image src="/agentic-logo.png" alt="Agentic" width={32} height={32} style={{ borderRadius: 8 }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
-          <span style={{ fontWeight: 800, fontSize: 18, letterSpacing: '-0.01em', background: 'linear-gradient(135deg, #fff 40%, #4D9FFF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>AGENTIC</span>
+          <Image src="/agenticly-logo.png" alt="agenticly" width={32} height={32} style={{ borderRadius: 8 }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+          <span style={{ fontWeight: 800, fontSize: 18, letterSpacing: '-0.01em', background: 'linear-gradient(135deg, #fff 40%, #4D9FFF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>agenticly</span>
         </div>
         <div style={{ display: 'flex', gap: 32 }}>
           {NAV.map(n => (
@@ -407,7 +407,7 @@ export default function LandingPage() {
         <div style={{ textAlign: 'center', marginBottom: 60 }}>
           <p style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.15em', color: 'var(--blue-primary)', textTransform: 'uppercase', marginBottom: 12 }}>About Us</p>
           <h2 style={{ fontSize: 42, fontWeight: 800, letterSpacing: '-0.02em', marginBottom: 20 }}>Built by Traders, for Traders</h2>
-          <p style={{ fontSize: 17, color: 'var(--text-muted)', maxWidth: 600, margin: '0 auto', lineHeight: 1.75 }}>Agentic was founded by a team of experienced traders and engineers who believe AI will fundamentally change how people interact with financial markets.</p>
+          <p style={{ fontSize: 17, color: 'var(--text-muted)', maxWidth: 600, margin: '0 auto', lineHeight: 1.75 }}>agenticly was founded by a team of experienced traders and engineers who believe AI will fundamentally change how people interact with financial markets.</p>
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 20 }}>
           {TEAM.map(t => (
@@ -429,7 +429,7 @@ export default function LandingPage() {
         <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at center, rgba(0,82,255,0.1) 0%, transparent 65%)', pointerEvents: 'none' }} />
         <div style={{ position: 'relative', zIndex: 1 }}>
           <h2 style={{ fontSize: 52, fontWeight: 900, letterSpacing: '-0.03em', marginBottom: 20 }}>Ready to Trade Smarter?</h2>
-          <p style={{ fontSize: 18, color: 'var(--text-muted)', marginBottom: 40, maxWidth: 480, margin: '0 auto 40px' }}>Join thousands of traders already using Agentic to maximize their returns.</p>
+          <p style={{ fontSize: 18, color: 'var(--text-muted)', marginBottom: 40, maxWidth: 480, margin: '0 auto 40px' }}>Join thousands of traders already using agenticly to maximize their returns.</p>
           <a href={DAPP_URL} target="_blank" rel="noopener noreferrer" style={{ padding: '16px 40px', borderRadius: 14, fontSize: 16, fontWeight: 700, background: 'linear-gradient(135deg, #0052FF, #0041CC)', color: '#fff', boxShadow: '0 0 40px rgba(0,82,255,0.4)', display: 'inline-block' }}>
             Launch App →
           </a>
@@ -439,10 +439,10 @@ export default function LandingPage() {
       {/* FOOTER */}
       <footer style={{ padding: '32px 80px', borderTop: '1px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-          <Image src="/agentic-logo.png" alt="Agentic" width={24} height={24} style={{ borderRadius: 6 }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
-          <span style={{ fontWeight: 700, fontSize: 15, color: 'var(--text-muted)' }}>AGENTIC</span>
+          <Image src="/agenticly-logo.png" alt="agenticly" width={24} height={24} style={{ borderRadius: 6 }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+          <span style={{ fontWeight: 700, fontSize: 15, color: 'var(--text-muted)' }}>agenticly</span>
         </div>
-        <p style={{ fontSize: 13, color: 'var(--text-dim)' }}>© 2025 Agentic. Built on Base Chain.</p>
+        <p style={{ fontSize: 13, color: 'var(--text-dim)' }}>© 2025 agenticly. Built on Base Chain.</p>
         <div style={{ display: 'flex', gap: 24 }}>
           {['Twitter', 'Discord', 'Docs', 'GitHub'].map(l => (
             <a key={l} href="#" style={{ fontSize: 13, color: 'var(--text-dim)', transition: 'color 0.15s' }}
