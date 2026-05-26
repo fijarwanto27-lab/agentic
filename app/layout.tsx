@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'agenticly — AI-Powered Crypto Trading',
+  title: 'AGENTICLY — AI-Powered Crypto Trading',
   description: 'Trade futures, spot markets, and deploy autonomous AI agents — all in one platform built natively on Base Chain.',
-  icons: { icon: '/agenticly-logo.png' },
+  icons: { icon: '/AGENTICLY-logo.png' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
