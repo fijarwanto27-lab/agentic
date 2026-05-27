@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 
-const DAPP_URL = 'https://app.AGENTICLY.xyz'
+const DAPP_URL = '/dashboard'
 
 const NAV = ['Features', 'How It Works', 'Tokenomics', 'Roadmap', 'About']
 
